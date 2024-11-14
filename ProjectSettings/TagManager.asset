@@ -6,7 +6,6 @@ TagManager:
   tags:
   - InvisibleObj
   - Death
-  - Key
   - AttackCollider
   - Door
   layers:

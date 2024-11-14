@@ -57,7 +57,7 @@ public class EchoControl : MonoBehaviour
 
     public void Pulse(InputAction.CallbackContext context)
     {
-        if (!canPulse) return;
+        if (!canPulse || Time.timeScale == 0) return;
 
         anim.SetTrigger("Pulse");
         StartCoroutine(pulseCooldown());
