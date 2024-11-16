@@ -8,6 +8,7 @@ TagManager:
   - Death
   - AttackCollider
   - Door
+  - Key
   layers:
   - Default
   - TransparentFX
